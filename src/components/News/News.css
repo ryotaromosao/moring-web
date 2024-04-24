@@ -1,0 +1,43 @@
+.news {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.news__image {
+    padding-right: 2vw;
+    /* 左側に配置するためにpadding-rightに変更 */
+    flex: 0 0 40%;
+    text-align: center;
+    order: 1;
+    /* 画像を右側に移動 */
+}
+
+
+.news__image img {
+    max-width: 60%;
+    height: auto;
+}
+
+
+.news__description {
+    padding-right: calc(5% - 8vw);
+    padding-left: calc(0% + 18vw);
+    order: 0;
+}
+
+
+.news__description h2 {
+    text-align: center;
+    padding-bottom: 0;
+    margin-top: 0;
+    font-size: 1.8vw;
+}
+
+
+.news__description p {
+    text-align: left;
+    margin-bottom: 0%;
+    font-size: 1.2vw;
+}
