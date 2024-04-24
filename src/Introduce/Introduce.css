@@ -1,38 +1,41 @@
-.introduceRev {
+.introduce {
     display: flex;
     align-items: center;
     padding: 20px;
 }
 
-.introduceRev__image {
-    padding-left: 10vw;
+.introduce__image {
+    padding-right: 10vw;
+    /* 左側に配置するためにpadding-rightに変更 */
     flex: 0 0 40%;
     text-align: center;
-    
+    order: 1;
+    /* 画像を右側に移動 */
 }
 
-.introduceRev__image img {
+.introduce__image img {
     max-width: 60%;
     height: auto;
 }
 
-.introduceRev__description {
+.introduce__description {
     text-align: left;
     padding-right: calc(5% + 5vw);
     padding-left: calc(5% - 5vw);
-
+    order: 0;
+    /* 説明文を左側に移動 */
 }
 
-.introduceRev__description h2 {
+.introduce__description h2 {
     padding-right: 5%;
     padding-bottom: 0;
     margin-top: 0;
-    font-size: 2.3vw;
+    font-size: 2.6vw;
 }
 
-.introduceRev__description p {
+.introduce__description p {
     padding-right: 0;
     margin-top: 0;
     margin-bottom: 0;
-    font-size: 1.1vw;
+    font-size: 1.2vw;
 }
