@@ -1,6 +1,7 @@
 import React from 'react';
 import './News.css'; 
-const Introduce = ({ name, description, imageUrl }) => {
+
+const News = ({ name, description, imageUrl }) => {
   return (
     <div className="news">
       <div className="news__image">
@@ -14,4 +15,4 @@ const Introduce = ({ name, description, imageUrl }) => {
   );
 };
 
-export default Introduce;
+export default News;

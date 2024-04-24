@@ -2,7 +2,7 @@ import "./App.css"
 import Navbar from "./components/Navbar";
 import TopPage from "./components/TopPage";
 import ScrollText from "./components/ScrollText/ScrollText";
-import Introduce from "./Introduce/Introduce";
+import Introduce from "./components/Introduce/Introduce";
 import News from "./components/News/News";
 
 
@@ -54,7 +54,7 @@ function App() {
 
 
           <News
-            name={"4/17 給食制度開始"}        
+            name={"4/17 給食制度を開始しました"}        
             description={"4/17より朝活部の新たな取り組みとして、給食部が発足しました。曜日ごとに担当が分かれ、自分たちで食材調達から調理まで行うことで、圧倒的なコスパの給食を提供します。記念すべき初回のシェフはM2釜谷・M1和泉が、食材調達はM2田中が担当しました。"}
             imageUrl={'./kyuusyoku-1.JPG'}
           />
