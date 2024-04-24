@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './TopPage.css'; // 必要に応じてスタイルシートをインポート
-
+import './TopPage.css'; 
 function TopPage() {
   const [currentImage, setCurrentImage] = useState(1);
 
@@ -16,7 +15,7 @@ function TopPage() {
     <div className="top-page">
       <img src={`${currentImage}.JPG`} alt="Large Photo" className="large-photo" />
       <div className="text-overlay">
-        <p>&nbsp;MEANINGFUL&nbsp;MORNING &nbsp;CHANGES &nbsp;YOUR&nbsp;LIFE.</p>
+        <p>&nbsp;MEANINGFUL&nbsp;MORING CHANGES &nbsp; YOUR LIFE.</p>
       </div>
     </div>
   );

@@ -35,11 +35,11 @@
 
 .text-overlay {
     position: absolute;
-    top: 46%;
-    left: 15%;
+    top: 50%;
+    left: 20%;
     transform: translate(-50%, -50%);
     color: #ffffff;
-    font-size: 5vw;
+    font-size: 150px;
     text-align: center;
     width: 80%;
     max-width: 800px;
@@ -50,4 +50,5 @@
 .text-overlay p {
     white-space: pre-line;
 }
+
 

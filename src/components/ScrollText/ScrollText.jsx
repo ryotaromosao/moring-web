@@ -22,8 +22,6 @@ const ScrollText = ({ text }) => {
 
   useEffect(() => {
     const handleScroll = () => {
-      // スクロール位置に応じて文字を動かす処理をここに書く
-      // 例: setDisplayedText(text.substring(scrollPosition, scrollPosition + index));
     };
 
     window.addEventListener('scroll', handleScroll);
