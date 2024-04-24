@@ -24,14 +24,14 @@ function App() {
       <div className="introduce-parent">
               <Introduce 
                 name="Manato Chiba"
-                description={"中田幼稚園中退後、家族でUSに渡り、Jarvis Preschool、 W.H Robinson Elementary(dropout)でキャリアを積む。仙台二高・東北大学工学部を卒業後、'24に東北大学情報科学研究科へ入学。MORING AWARD Ph1では過去No.1の成績を残し、現在は菅沼研究室朝活部長を務める"}
+                description={"中田幼稚園中退後、家族でUSに渡り、Jarvis Preschool、 W.H Robinson Elementary(dropout)でキャリアを積む。仙台二高・東北大学工学部を卒業後、'24に東北大学情報科学研究科へ入学。MORING AWARD Ph1では過去No.1の成績を残し、現在は朝活部長を務める。"}
                 imageUrl={'./bucho2.JPG'}
                 />
           </div>
           <div className="introduce-parent">
               <Introduce 
                 name="Ryotaro Matsui"
-                description={"香川県立高松高校・東北大学工学部を卒業後、'23年に東北大学情報科学研究科に入学。'24年に所属する菅沼・水木研究室で朝活部・給食部を國見と共に設立し、現在はSugatakuChildren.IncのCEOを務める。  好きな言葉は「人生は困難な方に進むべき。」   "}
+                description={"香川県立高松高校・東北大学工学部を卒業後、'23年に東北大学情報科学研究科に入学。'24年に所属する菅沼・水木研究室で朝活部・給食部を國見と共に設立し、現在はSugatakuChilden.IncのCEOを務める。  好きな言葉は「人生は困難な方に進むべき。」   "}
                 imageUrl={'./sosetsu.JPG'}
                 />
           </div>
