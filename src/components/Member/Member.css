@@ -1,0 +1,39 @@
+.member {
+    display: flex;
+    justify-content: center; /*中央寄せ */
+    flex-wrap: wrap;
+    height: 20%;
+}
+
+.member li {
+    position: relative;
+    /* 相対位置指定 */
+    width: calc(20% - 30px);
+    padding: 1vw;
+
+    box-sizing: border-box;
+    color: #fff;
+    text-align: center;
+    /* 中央寄せ */
+}
+
+.member li img {
+    max-width: 100%;
+    height: auto;
+    /* border: solid 1px #fff; */
+}
+
+.member li p {
+    position: absolute;
+    height: 2.5vw;
+    width: 88%;
+    top: 12vw;
+    /* left: 0;
+    right: 0; */
+    color: #6F51A1;
+    padding: 5px;
+    margin: 0;
+    font-size: 1vw;
+    font-weight: bold;
+    text-align:  center;
+}
