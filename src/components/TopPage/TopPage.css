@@ -21,12 +21,17 @@
     display: block;
     margin: 0 auto;
     object-fit: cover;
-    transition: opacity 0.5s;
+    transition: opacity 1s ease-in-out;
+    opacity: 0; 
 }
 
 .top-page {
     position: relative;
     height: 100vh;
+}
+
+.large-photo.fade-in {
+    opacity: 1;
 }
 
 .large-photo.fade-out {
