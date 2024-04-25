@@ -1,0 +1,28 @@
+.rules {
+    background-color: #ffffff;
+    width: 55%;
+    /* 幅 */
+    height: 3.3vw;
+    /* 高さ */
+    position: relative;
+    top: 50%;
+    left: 53%;
+    transform: translateX(-50%);
+    /* padding-left: 20px; */
+    /* 左側の余白 */
+    /* padding-right: 20px; */
+    /* 右側の余白 */
+    display: flex;
+    justify-content: left;
+    /* 横方向の中央揃え */
+    align-items: center;
+    /* 縦方向の中央揃え */
+ 
+}
+
+.rules p{
+    color: #6F51A1;
+    font-size: 2vw;
+    text-align: left;
+    font-weight: bold;
+}
