@@ -1,10 +1,11 @@
 import "./App.css"
 import Navbar from "./components/Navbar";
-import TopPage from "./components/TopPage";
+import TopPage from "./components/TopPage/TopPage";
 import ScrollText from "./components/ScrollText/ScrollText";
 import Introduce from "./components/Introduce/Introduce";
 import News from "./components/News/News";
 import Member from "./components/Member/Member";
+import Rules from "./components/Rules/Rules";
 
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
 
 
       <div className="scroll-text-parent">
-        <ScrollText text="いつも寝てばかりの午前中を  有意義に使いたい" />
+        <ScrollText text="午前中を有意義に過ごし、いつまでも成長し続ける人材に" />
       </div>
 
 
@@ -30,22 +31,40 @@ function App() {
 
     <Introduce
       name="Manato Chiba / General Manager"
-      description={"中田幼稚園中退後、家族でUSに渡り、Jarvis Preschool、 W.H Robinson Elementary(dropout)でキャリアを積む。仙台二高・東北大学工学部を卒業後、'24に東北大学情報科学研究科へ入学。MORING AWARD Ph1では過去No.1の成績を残し、現在は菅沼研究室朝活部長を務める。"}
+      description={"中田幼稚園中退後、家族でUSに渡り、Jarvis Preschool、 W.H Robinson Elementary(dropout)でキャリアを積む。仙台二高・東北大学工学部を卒業後、'24に東北大学情報科学研究科へ入学。MORING AWARD Ph1では過去No.1の成績を残し、現在は菅沼研朝活部長を務める。"}
       imageUrl={'./bucho2.JPG'}
       />
     <Introduce
       name="Ryotaro Matsui / Founder"
       description={"香川県立高松高校・東北大学工学部を卒業後、'23年に東北大学情報科学研究科に入学。'24年に所属する菅沼・水木研究室で朝活部・給食部を國見と共に設立し、現在はSugatakuChildren.IncのCEOを務める。  好きな言葉は「人生は困難な方に進むべき。」   "}
-      imageUrl={'./sosetsu.JPG'}
+      imageUrl={'./sosetsu-2.JPG'}
       />
 
 
     <Introduce
       name="Wataru Kunumi / co-Founder"
-      description={"神奈川県立小田原高校・東北大学工学部を卒業、'24年に東北大学情報科学研究科に入学。デンマーク工科大（DTU）への留学の経験を活かし、松井と共に朝活部を設立。現在は、人々の生きる指針を示す自然言語型アプリケーションを製作中。"}
+      description={"神奈川県立小田原高校・東北大学工学部を卒業後、'24年に東北大学情報科学研究科に入学。半年間のデンマーク工科大（DTU）への留学の経験を活かし、松井と共に朝活部を設立。現在は、人々の生きる指針を示す自然言語型アプリケーションを製作中。"}
       imageUrl={'./firstmember.JPG'}
       />
     
+    <div style={{ marginBottom: "100px" }}></div>
+
+    <center><b className="murasaki">#Rules</b></center>
+
+    <div style={{ marginBottom: "100px" }}></div>
+
+    <Rules
+      text="・朝活宣言した日の朝9時までに研究室に入室する"
+    /><Rules
+      text="・9~12時は各々にとってmeaningfulな活動を行う"
+    /><Rules
+      text="・朝活成功時には、朝活ポイントを1P付与する"
+    /><Rules
+      text="・遅刻した場合、出席人数×最大200円を支払う"
+    /><Rules
+      text="・シーズン王者には、額縁・朝活資金運営権が与えられる"
+    />
+
     <div style={{ marginBottom: "100px" }}></div>
 
     <center><b className="murasaki">#Members</b></center>
@@ -53,28 +72,28 @@ function App() {
     <div style={{ marginBottom: "100px" }}></div>
 
     <Member 
-      picture1="./bucho.jpg"
-      picture2={"./sosetsu.jpg"}
+      picture1="./takahata-2.JPG"
+      picture2={"./tanaka.jpg"}
       picture3={"./firstmember.jpg"}
-      picture4={"./bucho.jpg"}
+      picture4={"./uchimura.jpg"}
 
-      name1={"naoki takahata"}
-      name2={"kodai tanaka"}
-      name3={"yoshikazu brother"}
-      name4={"taichi uchimura"}
+      name1={"Naoki Takahata"}
+      name2={"Kodai Tanaka"}
+      name3={"Yoshikazu Brother"}
+      name4={"Taichi Uchimura"}
 
       />
 
     <Member 
       picture1="./bucho.jpg"
-      picture2={"./sosetsu.jpg"}
+      picture2={"./tanaka.jpg"}
       picture3={"./firstmember.jpg"}
       picture4={"./bucho.jpg"}
 
-      name1={"mayuko kamaya"}
-      name2={"keinosuke izumi"}
-      name3={"yoshia hayasaka"}
-      name4={"ren yoshida"}
+      name1={"Nayuko Kamaya"}
+      name2={"Keinosuke Izumi"}
+      name3={"Yoshia Hayasaka"}
+      name4={"Ren Yoshida"}
       />
        
       <Member 
@@ -82,9 +101,9 @@ function App() {
       picture2={"./sosetsu.jpg"}
       picture3={"./firstmember.jpg"}
 
-      name1={"shingo kato"}
+      name1={"Shingo Kato"}
       name2={"TKD"}
-      name3={"ryoya koyama"}
+      name3={"Ryoya Koyama"}
       />
     <div style={{ marginBottom: "100px" }}></div>
 
@@ -108,8 +127,8 @@ function App() {
 
 
     <News
-      name={"4/1 MMWph1をM1千葉が受賞しました"}        
-      description={"今年後、初めてのMMW AWARD授賞式が行われ、修士1年の千葉愛斗が受賞しました。千葉は朝活黎明期からその可能性に注目し、積極的な朝活動を展開してきました。千葉の最終的に17Pの朝活ポイントを獲得し、歴代最高の成績を残しました。"}
+      name={"4/1 MMW ph1をM1千葉が受賞しました"}        
+      description={"今年後、初めてのMMW AWARD授与式が行われ、修士1年の千葉愛斗が受賞しました。千葉は朝活黎明期からその可能性に注目し、積極的な朝活動を展開してきました。千葉は最終的に17Pの朝活ポイントを獲得し、歴代最高成績を残しました。"}
       imageUrl={'./MMWph1.JPG'}
     />
 
