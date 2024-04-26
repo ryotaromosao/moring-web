@@ -86,7 +86,7 @@ function App() {
 
     <Member 
       picture1="./gray.jpg"
-      picture2={"./tanaka.jpg"}
+      picture2={"./gray.jpg"}
       picture3={"./gray.jpg"}
       picture4={"./gray.jpg"}
 
