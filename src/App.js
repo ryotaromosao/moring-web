@@ -74,7 +74,7 @@ function App() {
     <Member 
       picture1="./takahata-2.JPG"
       picture2={"./tanaka.jpg"}
-      picture3={"./firstmember.jpg"}
+      picture3={"./gray.jpg"}
       picture4={"./uchimura.jpg"}
 
       name1={"Naoki Takahata"}
@@ -85,10 +85,10 @@ function App() {
       />
 
     <Member 
-      picture1="./bucho.jpg"
+      picture1="./gray.jpg"
       picture2={"./tanaka.jpg"}
-      picture3={"./firstmember.jpg"}
-      picture4={"./bucho.jpg"}
+      picture3={"./gray.jpg"}
+      picture4={"./gray.jpg"}
 
       name1={"Nayuko Kamaya"}
       name2={"Keinosuke Izumi"}
@@ -97,9 +97,9 @@ function App() {
       />
        
       <Member 
-      picture1="./test.JPG"
-      picture2={"./sosetsu.jpg"}
-      picture3={"./firstmember.jpg"}
+      picture1="./gray.jpg"
+      picture2={"./gray.jpg"}
+      picture3={"./gray.jpg"}
 
       name1={"Shingo Kato"}
       name2={"TKD"}
@@ -115,21 +115,21 @@ function App() {
     <News
       name={"4/17 給食制度を開始しました"}        
       description={"4/17より朝活部の新たな取り組みとして、給食部が発足しました。曜日ごとに担当が分かれ、自分たちで食材調達から調理まで行うことで、圧倒的なコスパの給食を提供します。記念すべき初回のシェフはM2釜谷・M1和泉が、食材調達はM2田中が担当しました。"}
-      imageUrl={'./kyuusyoku-1.JPG'}
+      imageUrl={'./Kyuusyoku.JPG'}
     />
 
 
     <News
       name={"4/2 B3向け部活動紹介を行いました"}        
       description={"幣部部長の千葉が学部3年生向けに部活動紹介を行いました。朝活のルールやこれまでの実績について簡単に説明しながら、朝活の魅力を熱く語りました。ペナルティ制度にはあえて言及せず、新入生の入部を図りました。"}
-      imageUrl={'./B3syoukai.JPG'}
+      imageUrl={'./B3.JPG'}
     />
 
 
     <News
       name={"4/1 MMW ph1をM1千葉が受賞しました"}        
       description={"今年後、初めてのMMW AWARD授与式が行われ、修士1年の千葉愛斗が受賞しました。千葉は朝活黎明期からその可能性に注目し、積極的な朝活動を展開してきました。千葉は最終的に17Pの朝活ポイントを獲得し、歴代最高成績を残しました。"}
-      imageUrl={'./MMWph1.JPG'}
+      imageUrl={'./MMW_ph1.JPG'}
     />
 
 
