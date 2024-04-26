@@ -54,11 +54,11 @@ function App() {
     <div style={{ marginBottom: "100px" }}></div>
 
     <Rules
-      text="・朝活宣言した日の朝9時までに研究室に入室する"
+      text="・朝活宣言を行った日の朝9時までに研究室に入室する"
     /><Rules
       text="・9~12時は各々にとってmeaningfulな活動を行う"
     /><Rules
-      text="・朝活成功時には、朝活ポイントを1P付与する"
+      text="・朝活成功時には、朝活ポイントが1P付与される"
     /><Rules
       text="・遅刻した場合、出席人数×最大200円を支払う"
     /><Rules
@@ -74,7 +74,7 @@ function App() {
     <Member 
       picture1="./takahata-2.JPG"
       picture2={"./tanaka.jpg"}
-      picture3={"./gray.jpg"}
+      picture3={"./MMC_logo.jpg"}
       picture4={"./taichi.JPG"}
 
       name1={"Naoki Takahata"}
@@ -85,10 +85,10 @@ function App() {
       />
 
     <Member 
-      picture1="./gray.jpg"
-      picture2={"./gray.jpg"}
-      picture3={"./gray.jpg"}
-      picture4={"./gray.jpg"}
+      picture1="./MMC_logo-2.jpg"
+      picture2={"./MMC_logo-2.jpg"}
+      picture3={"./MMC_logo-2.jpg"}
+      picture4={"./MMC_logo-2.jpg"}
 
       name1={"Nayuko Kamaya"}
       name2={"Keinosuke Izumi"}
@@ -97,9 +97,9 @@ function App() {
       />
        
       <Member 
-      picture1="./gray.jpg"
-      picture2={"./gray.jpg"}
-      picture3={"./gray.jpg"}
+      picture1="./MMC_logo.jpg"
+      picture2={"./MMC_logo.jpg"}
+      picture3={"./MMC_logo.jpg"}
 
       name1={"Shingo Kato"}
       name2={"TKD / dealer"}

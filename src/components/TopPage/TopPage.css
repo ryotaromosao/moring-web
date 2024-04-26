@@ -41,11 +41,11 @@
 .text-overlay {
     position: absolute;
     top: 50%;
-    left: 20%;
+    left: 25%;
     transform: translate(-50%, -50%);
     color: #6F51A1;
     font-size: 150px;
-    text-align: center;
+    text-align: left;
     width: 80%;
     max-width: 800px;
     z-index: 1;
