@@ -20,7 +20,7 @@ function App() {
 
 
       <div className="scroll-text-parent">
-        <ScrollText text="a午前中を有意義に過ごし、いつまでも成長し続ける人材に" />
+        <ScrollText text="午前中を有意義に過ごし、いつまでも成長し続ける人材に" />
       </div>
 
 
@@ -75,7 +75,7 @@ function App() {
       picture1="./takahata-2.JPG"
       picture2={"./tanaka.jpg"}
       picture3={"./gray.jpg"}
-      picture4={"./uchimura.jpg"}
+      picture4={"./Uchimura.JPG"}
 
       name1={"Naoki Takahata"}
       name2={"Kodai Tanaka"}
@@ -86,7 +86,7 @@ function App() {
 
     <Member 
       picture1="./gray.jpg"
-      picture2={"./tanaka.jpg"}
+      picture2={"./gray.jpg"}
       picture3={"./gray.jpg"}
       picture4={"./gray.jpg"}
 
