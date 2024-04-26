@@ -20,7 +20,7 @@ function App() {
 
 
       <div className="scroll-text-parent">
-        <ScrollText text="午前中を有意義に過ごし、いつまでも成長し続ける人材に" />
+        <ScrollText text="a午前中を有意義に過ごし、いつまでも成長し続ける人材に" />
       </div>
 
 
