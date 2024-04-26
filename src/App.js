@@ -37,7 +37,7 @@ function App() {
     <Introduce
       name="Ryotaro Matsui / Founder"
       description={"香川県立高松高校・東北大学工学部を卒業後、'23年に東北大学情報科学研究科に入学。'24年に所属する菅沼・水木研究室で朝活部・給食部を國見と共に設立し、現在はSugatakuChildren.IncのCEOを務める。  好きな言葉は「人生は困難な方に進むべき。」   "}
-      imageUrl={'./sosetsu-2.JPG'}
+      imageUrl={'./sosetsu-2.jpg'}
       />
 
 
@@ -97,7 +97,7 @@ function App() {
       />
        
       <Member 
-      picture1="./bucho.jpg"
+      picture1="./test.JPG"
       picture2={"./sosetsu.jpg"}
       picture3={"./firstmember.jpg"}
 
