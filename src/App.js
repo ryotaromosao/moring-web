@@ -78,7 +78,7 @@ function App() {
       picture4={"./taichi.JPG"}
 
       name1={"Naoki Takahata"}
-      name2={"Kodai Tanaka"}
+      name2={"Kodai Tanaka / MMWph1 MVP"}
       name3={"Yoshikazu Brother"}
       name4={"Taichi Uchimura"}
 
@@ -86,7 +86,7 @@ function App() {
 
     <Member 
       picture1="./MMC_logo-2.jpg"
-      picture2={"./MMC_logo-2.jpg"}
+      picture2={"./izumi.JPG"}
       picture3={"./MMC_logo-2.jpg"}
       picture4={"./MMC_logo-2.jpg"}
 
@@ -98,7 +98,7 @@ function App() {
        
       <Member 
       picture1="./MMC_logo.jpg"
-      picture2={"./MMC_logo.jpg"}
+      picture2={"./tkd.JPG"}
       picture3={"./MMC_logo.jpg"}
 
       name1={"Shingo Kato"}
