@@ -75,7 +75,7 @@ function App() {
       picture1="./takahata-2.JPG"
       picture2={"./tanaka.jpg"}
       picture3={"./gray.jpg"}
-      picture4={"./Uchimura.JPG"}
+      picture4={"./taichi.JPG"}
 
       name1={"Naoki Takahata"}
       name2={"Kodai Tanaka"}
@@ -102,7 +102,7 @@ function App() {
       picture3={"./gray.jpg"}
 
       name1={"Shingo Kato"}
-      name2={"TKD"}
+      name2={"TKD / dealer"}
       name3={"Ryoya Koyama"}
       />
     <div style={{ marginBottom: "100px" }}></div>
