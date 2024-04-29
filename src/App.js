@@ -45,7 +45,7 @@ function App() {
 
 
     <Introduce
-      name="Wataru Kunumi / co-Founder"
+      name="Wataru Kunimi / co-Founder"
       description={"神奈川県立小田原高校・東北大学工学部を卒業後、'24年に東北大学情報科学研究科に入学。半年間のデンマーク工科大（DTU）への留学の経験を活かし、松井と共に朝活部を設立。現在は、人々の生きる指針を示す自然言語型アプリケーションを製作中。"}
       imageUrl={'./firstmember.JPG'}
       />
@@ -93,9 +93,9 @@ function App() {
       picture3={"./MMC_logo-2.jpg"}
       picture4={"./MMC_logo-2.jpg"}
 
-      name1={"Nayuko Kamaya"}
+      name1={"Mayuko Kamaya"}
       name2={"Keinosuke Izumi"}
-      name3={"Yoshia Hayasaka"}
+      name3={"Yoshiya Hayasaka"}
       name4={"Ren Yoshida"}
       />
        
