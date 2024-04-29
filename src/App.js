@@ -110,7 +110,7 @@ function App() {
       />
 
 
-    <div style={{ marginBottom: "8%" }}></div>
+    <div style={{ marginBottom: "6%" }}></div>
 
 
     <center><b className="murasaki">#News</b></center>
