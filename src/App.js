@@ -6,6 +6,7 @@ import Introduce from "./components/Introduce/Introduce";
 import News from "./components/News/News";
 import Member from "./components/Member/Member";
 import Rules from "./components/Rules/Rules";
+import Achievement from "./components/Achievement/Achievement";
 
 
 function App() {
@@ -56,17 +57,40 @@ function App() {
 
     <div style={{ marginBottom: "4%" }}></div>
 
-    <Rules
+
+
+    <Rules 
       text="・朝活宣言を行った日の朝9時までに研究室に入室する"
     /><Rules
       text="・9~12時は各々にとってmeaningfulな活動を行う"
     /><Rules
       text="・朝活成功時には、朝活ポイントが1P付与される"
     /><Rules
-      text="・遅刻した場合、出席人数×最大200円を支払う"
+      text="・遅刻した場合、ペナルティが課せられる"
     /><Rules
       text="・シーズン王者には、額縁・朝活資金運営権が与えられる"
     />
+
+    <div style={{ marginBottom: "5%" }}></div>
+
+    <center><b className="midori">#Achievement</b></center>
+
+    <div style={{ marginBottom: "3%" }}></div>
+
+    <Achievement
+    text="・IPSJ学生奨励賞受賞（Manato Chiba）"/>
+    <Achievement
+    text="・IPSJ学生奨励賞受賞（Wataru Kunimi）"/>
+    <Achievement
+    text="・IPSJ学生奨励賞受賞（Kodai Tanaka）"/>
+    <Achievement
+    text="・入退出システム開発（Shuhei Yoshida、Yoshikazu Brother）"/>
+    <Achievement
+    text="・Flatt Security内定（Ryotaro Matsui）"/>
+    <Achievement
+    text="・第一志望内定（インフラ）（Mayuko Kamaya）"/>
+    <Achievement
+    text="・三菱商事内定（Kodai Tanaka）"/>
 
     <div style={{ marginBottom: "5%" }}></div>
 
@@ -101,7 +125,7 @@ function App() {
        
       <Member 
       picture1="./MMC_logo.jpg"
-      picture2={"./tkd.JPG"}
+      picture2={"./tkd-2.JPG"}
       picture3={"./MMC_logo.jpg"}
 
       name1={"Shingo Kato"}
@@ -117,6 +141,17 @@ function App() {
 
     <div style={{ marginBottom: "3%" }}></div>
 
+   <News
+      name={"4/30 MMW Ph2の中間発表が行われました"}        
+      description={"4/30にMMW Ph2の中間発表が行われ、1位：M2釜谷（15.5P）、2位：M1千葉（14.5P）、3位：M2田中（13P）という結果になりました。首位の釜谷は中間発表を受けて「大変嬉しいです。今後も自分のペースで、有意義な朝を送っていきたいと思います。Ph2終了まであと1ヶ月ありますが、順位がどう変わっていくのか楽しみです。」と語りました。"}
+      imageUrl={'./MMC_logo-2.JPG'}
+    />
+
+    <News
+      name={"4/30 石垣島の農家からバナナが届きました"}        
+      description={"MORING AWARD Ph1の朝活資金で朝食用のアップルバナナを買いました。アップルバナナは、皮が薄く、剥いたときに広がるリンゴのような爽やかな香りが特徴のバナナで、その風味を部員皆で味わいました。メルカリで2800円で購入し、商品状態は「やや傷や汚れあり」とのことでした。"}
+      imageUrl={'./banana.JPG'}
+    />
 
     <News
       name={"4/17 給食制度を開始しました"}        
