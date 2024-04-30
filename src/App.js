@@ -112,7 +112,7 @@ function App() {
       />
 
     <Member 
-      picture1="./MMC_logo."
+      picture1="./MMC_logo-2.jpg"
       picture2={"./izumi.JPG"}
       picture3={"./MMC_logo-2.jpg"}
       picture4={"./MMC_logo-2.jpg"}
