@@ -9,7 +9,7 @@ function TopPage() {
       setAnimationClass('fade-out');
 
       setTimeout(() => {
-        setCurrentImage(currentImage => (currentImage % 4) + 1);
+        setCurrentImage(currentImage => (currentImage % 3) + 1);
         setAnimationClass('fade-in');
       }, 1000);
     }, 4500);
