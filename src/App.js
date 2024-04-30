@@ -90,7 +90,7 @@ function App() {
     <Achievement
     text="・第一志望内定（インフラ）（Mayuko Kamaya）"/>
     <Achievement
-    text="・第一志望内定（金融（Kodai Tanaka）"/>
+    text="・第一志望内定（金融）（Kodai Tanaka）"/>
 
     <div style={{ marginBottom: "5%" }}></div>
 
@@ -112,7 +112,7 @@ function App() {
       />
 
     <Member 
-      picture1="./MMC_logo-2.jpg"
+      picture1="./MMC_logo."
       picture2={"./izumi.JPG"}
       picture3={"./MMC_logo-2.jpg"}
       picture4={"./MMC_logo-2.jpg"}
@@ -144,7 +144,7 @@ function App() {
    <News
       name={"4/30 MMW Ph2の中間発表が行われました"}        
       description={"4/30にMMW Ph2の中間発表が行われ、1位：M2釜谷（15.5P）、2位：M1千葉（14.5P）、3位：M2田中（13P）という結果になりました。首位の釜谷は中間発表を受けて「大変嬉しいです。今後も自分のペースで、有意義な朝を送っていきたいと思います。Ph2終了まであと1ヶ月ありますが、順位がどう変わっていくのか楽しみです。」と語りました。"}
-      imageUrl={'./MMC_logo-2.JPG'}
+      imageUrl={'./MMC_logo-2.jpg'}
     />
 
     <News
