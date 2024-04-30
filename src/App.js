@@ -73,7 +73,7 @@ function App() {
 
     <div style={{ marginBottom: "5%" }}></div>
 
-    <center><b className="midori">#Achievement</b></center>
+    <center><b className="midori">#Achievements</b></center>
 
     <div style={{ marginBottom: "3%" }}></div>
 
