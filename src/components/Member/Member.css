@@ -2,7 +2,6 @@
     display: flex;
     justify-content: center; /*中央寄せ */
     flex-wrap: wrap;
-    height: 20%;
 }
 
 .member li {
