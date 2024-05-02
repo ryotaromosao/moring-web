@@ -172,7 +172,7 @@ function App() {
     <News
       name={"4/1 MMW ph1をM1千葉が受賞しました"}        
       description={"今年後、初めてのMMW AWARD授与式が行われ、修士1年の千葉愛斗が受賞しました。千葉は朝活黎明期からその可能性に注目し、積極的な朝活動を展開してきました。千葉は最終的に22.6Pの朝活ポイントを獲得し、歴代最高成績を残しました。"}
-      imageUrl={'./MMW_ph1.JPG'}
+      imageUrl={'./MMW_chiba.JPG'}
     />
 
 
