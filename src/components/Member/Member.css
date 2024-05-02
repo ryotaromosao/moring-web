@@ -1,19 +1,21 @@
 .member {
     display: flex;
     justify-content: center; /*中央寄せ */
+    text-align: center;
+    padding-left: 0%;
     flex-wrap: wrap;
 }
 
 .member li {
     position: relative;
     /* 相対位置指定 */
-    width: calc(20% - 30px);
-    padding: 1vw;
+    width: calc(20% - 0px);
+    padding: 0.9vw;
 
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     color: #fff;
-    text-align: center;
     /* 中央寄せ */
+    margin-left: 0;
 }
 
 .member li img {
@@ -31,8 +33,36 @@
     right: 0; */
     color: #6F51A1;
     /* padding: 1vw; */
-    margin: 0;
     font-size: 1vw;
     font-weight: bold;
     text-align:  center;
+}
+
+@media screen and (width <= 1200px) {
+    
+    .member li{
+        width: calc(45% - 2px);
+        padding: 1vw;
+    }
+    .member li p{
+        font-size: 2vw;;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    .member li {
+        width: calc(100% - 2vw);
+        /* 画像を横に一枚のみ表示するために幅を調整 */
+        padding: 2vw;
+        /* パディングを追加 */
+        margin: 0;
+        /* マージンをリセット */
+    }
+
+    .member li p {
+        font-size: 3vw;
+        top: 0;
+        padding-bottom: 3vw;
+    }
 }
