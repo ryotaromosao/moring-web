@@ -1,11 +1,13 @@
 // ScrollText.jsx
 import React, { useState, useEffect } from 'react';
 import './ScrollText.css';
+import useMedia from '../useMedia';
 
 const ScrollText = ({ text }) => {
   const [displayedText, setDisplayedText] = useState('');
   const [index, setIndex] = useState(0);
   const [scrollStarted, setScrollStarted] = useState(false);
+  const isMobile = useMedia('(max-width: 768px)'); // モバイル端末かどうかの状態
 
   useEffect(() => {
     if (!text || scrollStarted) return;
@@ -43,7 +45,9 @@ const ScrollText = ({ text }) => {
 
   return (
     <div id="scroll-text-parent" className="scroll-text-parent">
-      <div className={`scroll-text ${scrollStarted ? 'scroll-started' : ''}`}>{displayedText}</div>
+      <div className={`scroll-text ${scrollStarted ? 'scroll-started' : ''} ${isMobile ? 'mobile' : ''}`}>
+        {displayedText}
+      </div>
     </div>
   );
 };
