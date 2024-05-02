@@ -122,7 +122,7 @@ function App() {
       name1={"Mayuko Kamaya"}
       name2={"Keinosuke Izumi"}
       name3={"Yoshiya Hayasaka"}
-      name4={"Ren Yoshida"}
+      name4={"Ren Yoshida / farmer"}
       />
        
       <Member 
