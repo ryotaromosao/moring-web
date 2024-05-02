@@ -1,36 +1,51 @@
+// ScrollText.jsx
 import React, { useState, useEffect } from 'react';
 import './ScrollText.css';
 
 const ScrollText = ({ text }) => {
   const [displayedText, setDisplayedText] = useState('');
   const [index, setIndex] = useState(0);
+  const [scrollStarted, setScrollStarted] = useState(false);
 
   useEffect(() => {
-    if (!text) return; // textがundefinedの場合は処理を中断
+    if (!text || scrollStarted) return;
 
-    const interval = setInterval(() => {
-      if (index < text.length) {
-        setDisplayedText(text.substring(0, index + 1)); 
-        setIndex((prev) => prev + 1);
-      } else {
-        clearInterval(interval);
-      }
-    }, 100); // 表示秒数変更
-
-    return () => clearInterval(interval);
-  }, [index, text]);
-
-  useEffect(() => {
     const handleScroll = () => {
+      const element = document.getElementById('scroll-text-parent');
+      const scrollPosition = window.scrollY;
+      const elementOffset = element.offsetTop;
+
+      if (scrollPosition > elementOffset - window.innerHeight / 2) {
+        setScrollStarted(true);
+      }
     };
 
     window.addEventListener('scroll', handleScroll);
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
-  }, []);
+  }, [text, scrollStarted]);
 
-  return <div className="scroll-text">{displayedText}</div>;
+  useEffect(() => {
+    if (!scrollStarted) return;
+
+    const interval = setInterval(() => {
+      if (index < text.length) {
+        setDisplayedText(text.substring(0, index + 1));
+        setIndex((prev) => prev + 1);
+      } else {
+        clearInterval(interval);
+      }
+    }, 100);
+
+    return () => clearInterval(interval);
+  }, [index, text, scrollStarted]);
+
+  return (
+    <div id="scroll-text-parent" className="scroll-text-parent">
+      <div className={`scroll-text ${scrollStarted ? 'scroll-started' : ''}`}>{displayedText}</div>
+    </div>
+  );
 };
 
 export default ScrollText;

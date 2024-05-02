@@ -1,18 +1,26 @@
+/* ScrollText.css */
 .scroll-text {
-    position: absolute;
+    position: relative;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    /* 左端から開始 */
+    transform: translate(0, -50%);
     font-size: 2.5vw;
     font-weight: light;
     overflow: hidden;
     white-space: nowrap;
     padding: auto;
+    opacity: 0;
+    transition: opacity 1s ease;
+    /* テキストが表示されるときにフェードインするように設定 */
+}
+
+.scroll-text.scroll-started {
+    opacity: 1;
 }
 
 .scroll-text-parent {
     position: relative;
-    width: max;
+    width: max-content;
     height: 13vw;
     margin: 0 auto;
 }

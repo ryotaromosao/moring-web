@@ -91,6 +91,8 @@ function App() {
     text="・第一志望内定（インフラ）（Mayuko Kamaya）"/>
     <Achievement
     text="・第一志望内定（金融）（Kodai Tanaka）"/>
+    <Achievement
+    text="・KTH Master's Accepted（Manato Chiba）"/>
 
     <div style={{ marginBottom: "5%" }}></div>
 
