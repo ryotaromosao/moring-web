@@ -66,3 +66,14 @@
         padding-bottom: 3vw;
     }
 }
+ @media screen and (max-width: 834px) {
+     .member li {
+         width: calc(50% - 20px);
+     }
+     .member li p{
+        font-size: 3vw;
+        top:0vh;
+     }
+ }
+
+ 
