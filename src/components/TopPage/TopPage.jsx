@@ -28,7 +28,7 @@ function TopPage() {
         onLoad={() => setAnimationClass('fade-in')}
       />
       <div className="text-overlay">
-        <p>MEANINGFUL  MORNING   &nbsp;&nbsp; CHANGES YOUR LIFE.</p>
+        <p>MEANINGFUL  MORNING<br />  CHANGES YOUR LIFE.</p>
       </div>
     </div>
   );
