@@ -84,7 +84,7 @@ function App() {
     <Achievement
     text="・IPSJ学生奨励賞受賞（Kodai Tanaka）"/>
     <Achievement
-    text="・入退出システム開発（Shuhei Yoshida、Yoshikazu Brother）"/>
+    text="・入退出システム開発（Shuhei Yoshida、Yoshikazu Bro）"/>
     <Achievement
     text="・Flatt Security内定（Ryotaro Matsui）"/>
     <Achievement

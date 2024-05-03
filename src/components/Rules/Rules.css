@@ -26,3 +26,14 @@
     text-align: left;
     font-weight: bold;
 }
+
+
+@media screen and (width <=1200px) {
+    .rules{
+        width: 85%;
+        padding: 1vw;
+    }
+    .rules p{
+    font-size: 3.1vw;
+}
+}
