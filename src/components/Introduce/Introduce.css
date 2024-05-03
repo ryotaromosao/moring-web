@@ -8,12 +8,13 @@
     padding-left: 10vw;
     flex: 0 0 34%;
     text-align: center;
+        max-width: 100%;
     
 }
 
 .introduce__image img {
-    max-width: 60%;
     height: auto;
+    width: 80%;
 }
 
 .introduce__description {
@@ -27,14 +28,15 @@
     padding-right: 5%;
     padding-bottom: 0;
     margin-top: 0;
-    font-size: 2.3vw;
+    font-size: 2.5vw;
 }
 
 .introduce__description p {
     padding-right: 0;
     margin-top: 0;
     margin-bottom: 0;
-    font-size: 1.1vw;
+    font-size: 1.3vw;
+    color: gray;
 }
 
 @media screen and (max-width: 1200px) {
@@ -46,6 +48,7 @@
     }
 
     .introduce__image {
+        width: 100%;
         order: 0;
         /* 写真を上部に移動 */
         flex: 0 0 100%;
@@ -61,8 +64,8 @@
     }
 
     .introduce__description h2 {
-        font-size: 4vw;
-        padding: 2%;
+        font-size: 5vw;
+        padding-top: 2vw;
         text-align: center;
         /* 右側のパディングを削除 */
     }

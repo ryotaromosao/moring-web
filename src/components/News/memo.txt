@@ -1,0 +1,28 @@
+@media screen and (max-width: 1200px) {
+    .news {
+        display: block;
+    }
+
+    .news__image {
+        width: 90%;
+        margin: 0 auto;
+        /* 画像を中央に配置 */
+        padding: 5% 0;
+        /* 上下の余白を追加 */
+    }
+
+    .news__description {
+        order: 1;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .news__description h2 {
+        font-size: 4.3vw;
+    }
+
+    .news__description p {
+        font-size: 2.8vw;
+        padding-bottom: 5%;
+    }
+}
