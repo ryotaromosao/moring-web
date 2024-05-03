@@ -39,21 +39,19 @@
     text-align: left;
     margin-bottom: 0%;
     font-size: 1.4vw;
-    color: gray;
+    color: rgb(89, 88, 86); 
 }
 
 
-@media screen and (max-width: 1200px) {
+@media screen and (width<=834px) {
     .news {
         display: block;
     }
 
     .news__image {
-        width: 90%;
+        width: 95%;
         margin: 0 auto;
-        /* 画像を中央に配置 */
         padding: 5% 0;
-        /* 上下の余白を追加 */
     }
 
     .news__description {
@@ -63,11 +61,11 @@
     }
 
     .news__description h2 {
-        font-size: 4.7vw;
+        font-size: 5vw;
     }
 
     .news__description p {
-        font-size: 3.2vw;
+        font-size: 3.5vw;
         padding-bottom: 5%;
     }
 }

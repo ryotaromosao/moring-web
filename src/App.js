@@ -56,7 +56,7 @@ function App() {
 
     <center><b className="murasaki">#Rules</b></center>
 
-    <div style={{ marginBottom: "7vh" }}></div>
+    <div style={{ marginBottom: "4vh" }}></div>
 
 
 
@@ -72,7 +72,7 @@ function App() {
       text="・シーズン王者には、額縁・朝活資金運営権が与えられる"
     />
 
-    <div style={{ marginBottom: "5%" }}></div>
+    <div style={{ marginBottom: "7vh" }}></div>
 
     <center><b className="midori">#Achievements</b></center>
 
@@ -92,13 +92,15 @@ function App() {
     text="・第一志望内定（金融）（Kodai Tanaka）"/>
     <Achievement
     text="・第一志望内定（インフラ）（Mayuko Kamaya）"/>
+
+    
     <div style={{ marginBottom: "2%" }}></div>
 
     <Achievement
   text={<div>・入退出システム開発<br />（Shuhei Yoshida、Yoshikazu Bro）</div>}
 />
 
-    <div style={{ marginBottom: "5%" }}></div>
+    <div style={{ marginBottom: "10vh" }}></div>
 
     <center><b className="murasaki">#Members</b></center>
    

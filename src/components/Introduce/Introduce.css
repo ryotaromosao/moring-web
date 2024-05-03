@@ -36,21 +36,18 @@
     margin-top: 0;
     margin-bottom: 0;
     font-size: 1.3vw;
-    color: gray;
+    color: rgb(89, 88, 86);
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (width<= 834px) {
     .introduce {
         flex-direction: column;
-        /* 垂直方向に配置 */
         padding-top: 20px;
-        /* 上部にパディングを追加 */
     }
 
     .introduce__image {
         width: 100%;
         order: 0;
-        /* 写真を上部に移動 */
         flex: 0 0 100%;
         text-align: center;
         padding-left: 0;
@@ -58,7 +55,6 @@
 
     .introduce__description {
         order: 1;
-        /* descriptionを下部に移動 */
         padding-right: 0;
         padding-left: 0;
     }
@@ -67,7 +63,6 @@
         font-size: 5vw;
         padding-top: 2vw;
         text-align: center;
-        /* 右側のパディングを削除 */
     }
 
     .introduce__description p {
