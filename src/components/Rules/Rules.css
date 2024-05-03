@@ -28,7 +28,7 @@
 }
 
 
-@media screen and (width <=834px) {
+@media screen and (max-width: 400px) {
     .rules{
         width: 85%;
         padding: 4.2vw;

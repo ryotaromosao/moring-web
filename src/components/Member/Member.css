@@ -70,7 +70,7 @@
         padding-bottom: 3vw;
     }
 }
- @media screen and (width<= 834px) {
+ @media screen and (max-width: 400px) {
      .member li {
          width: calc(50% - 20px);
      }
