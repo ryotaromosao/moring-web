@@ -22,7 +22,7 @@
     align-items: center;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (width<=800px) {
     .nav {
         background-color: #6F51A1;
         height: auto;

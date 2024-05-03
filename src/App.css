@@ -49,12 +49,22 @@
 
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1000px) {
+  .midori{
+    font-size: 8vw;
+  }
   .midori p{
+    font-size: 5vw;
+    max-width: 100%;
+    padding-left: 0%;
+  }
+  .murasaki{
     font-size: 8vw;
   }
   .murasaki p{
-    font-size: 8vw;
+    font-size: 5vw;
+    max-width: 100%;
+    padding-left: 0%;
   }
   
 }

@@ -39,7 +39,7 @@
     color: rgb(89, 88, 86);
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (width<=1200px) {
     .introduce {
         flex-direction: column;
         padding-top: 20px;
