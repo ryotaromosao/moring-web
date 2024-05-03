@@ -7,40 +7,39 @@
 
 .news__image {
     padding-right: 4vw;
+    max-width: 100%;
     /* 左側に配置するためにpadding-rightに変更 */
     flex: 0 0 35%;
     text-align: center;
     order: 1;
-    /* 画像を右側に移動 */
 }
 
 
 .news__image img {
-    max-width: 60%;
-    padding-right: 3vw;
+    width: 80%;
     height: auto;
 }
 
 
 .news__description {
-    padding-right: calc(5% - 8vw);
-    padding-left: calc(0% + 13vw);
+    padding-left: 10%;
     order: 0;
 }
 
 
 .news__description h2 {
     text-align: center;
-    padding-bottom: 0;
     margin-top: 0;
-    font-size: 1.6vw;
+    font-size: 1.8vw;
 }
 
 
 .news__description p {
+    padding-right: 5%;
     text-align: left;
     margin-bottom: 0%;
-    font-size: 1.1vw;
+    font-size: 1.4vw;
+    color: gray;
 }
 
 
@@ -50,24 +49,25 @@
     }
 
     .news__image {
-        width: 100%;
-        order: 0;
-        /* 写真を上部に移動 */
-        flex: 0 0 100%;
-        text-align: center;
-        padding-right: 0;
+        width: 90%;
+        margin: 0 auto;
+        /* 画像を中央に配置 */
+        padding: 5% 0;
+        /* 上下の余白を追加 */
     }
 
     .news__description {
         order: 1;
-        padding: 6%;
+        padding-left: 5%;
+        padding-right: 5%;
     }
 
     .news__description h2 {
-        font-size: 3.5vw;
+        font-size: 4.3vw;
     }
 
     .news__description p {
-        font-size: 2.5vw;
+        font-size: 2.8vw;
+        padding-bottom: 5%;
     }
 }
