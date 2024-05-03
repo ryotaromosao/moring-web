@@ -17,15 +17,16 @@ function App() {
       <Navbar />
       <div className="text-overlay-parent"><TopPage /></div>
      
-      <div style={{ marginBottom: "3%" }}></div>
+      <div style={{ marginBottom: "10vh" }}></div>
 
       <center><b className="murasaki">#Mission</b></center>
 
+      <div style={{ marginBottom: "3%" }}></div>
 
-      <div className="scroll-text-parent">
-        <ScrollText text="有意義な朝活を通して、いつまでも成長し続ける人材に" />
-      </div>
-
+   
+      <ScrollText text="有意義な朝活を通して、いつまでも成長し続ける人材に" />
+      
+      <div style={{ marginBottom: "3%" }}></div>
 
       <center><b className="murasaki">#Board Members</b></center>
      
@@ -88,13 +89,14 @@ function App() {
     <Achievement
     text="・Flatt Security内定（Ryotaro Matsui）"/>
     <Achievement
-    text="・第一志望内定（Kodai Tanaka）"/>
+    text="・第一志望内定（金融）（Kodai Tanaka）"/>
     <Achievement
-    text="・第一志望内定（Mayuko Kamaya）"/>
-    
+    text="・第一志望内定（インフラ）（Mayuko Kamaya）"/>
+    <div style={{ marginBottom: "2%" }}></div>
 
     <Achievement
-    text="・入退出システム開発（Shuhei Yoshida、Yoshikazu Bro）"/>
+  text={<div>・入退出システム開発<br />（Shuhei Yoshida、Yoshikazu Bro）</div>}
+/>
 
     <div style={{ marginBottom: "5%" }}></div>
 
