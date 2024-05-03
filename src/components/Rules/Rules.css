@@ -31,9 +31,9 @@
 @media screen and (width <=1200px) {
     .rules{
         width: 85%;
-        padding: 1vw;
+        padding: 4vw;
     }
     .rules p{
-    font-size: 3.1vw;
+    font-size: 4vw;
 }
 }

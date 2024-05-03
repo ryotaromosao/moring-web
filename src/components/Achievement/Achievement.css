@@ -32,10 +32,10 @@
     .achievement {
         width: 86%;
         left:53%;
-        padding: 1.5vw;
+        padding: 4vw;
     }
 
     .achievement p {
-        font-size: 3.1vw;
+        font-size: 4vw;
     }
 }
