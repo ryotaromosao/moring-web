@@ -84,15 +84,17 @@ function App() {
     <Achievement
     text="・IPSJ学生奨励賞受賞（Kodai Tanaka）"/>
     <Achievement
-    text="・入退出システム開発（Shuhei Yoshida、Yoshikazu Bro）"/>
+    text="・KTH Master's Accepted（Manato Chiba）"/>
     <Achievement
     text="・Flatt Security内定（Ryotaro Matsui）"/>
     <Achievement
-    text="・第一志望内定（インフラ）（Mayuko Kamaya）"/>
+    text="・第一志望内定（Kodai Tanaka）"/>
     <Achievement
-    text="・第一志望内定（金融）（Kodai Tanaka）"/>
+    text="・第一志望内定（Mayuko Kamaya）"/>
+    
+
     <Achievement
-    text="・KTH Master's Accepted（Manato Chiba）"/>
+    text="・入退出システム開発（Shuhei Yoshida、Yoshikazu Bro）"/>
 
     <div style={{ marginBottom: "5%" }}></div>
 

@@ -36,3 +36,40 @@
     margin-bottom: 0;
     font-size: 1.1vw;
 }
+
+@media screen and (max-width: 1200px) {
+    .introduce {
+        flex-direction: column;
+        /* 垂直方向に配置 */
+        padding-top: 20px;
+        /* 上部にパディングを追加 */
+    }
+
+    .introduce__image {
+        order: 0;
+        /* 写真を上部に移動 */
+        flex: 0 0 100%;
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .introduce__description {
+        order: 1;
+        /* descriptionを下部に移動 */
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .introduce__description h2 {
+        font-size: 4vw;
+        padding: 2%;
+        text-align: center;
+        /* 右側のパディングを削除 */
+    }
+
+    .introduce__description p {
+        font-size: 3vw;
+        padding-left:5% ;
+        padding-right: 5%;
+    }
+}
