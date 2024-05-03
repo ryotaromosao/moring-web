@@ -31,3 +31,13 @@
   color:#03b4a5;
   font-size: 2.5vw;
 }
+
+@media screen and (width <=1200px) {
+  .midori {
+    font-size: 4vw;
+  }
+  .murasaki{
+    font-size: 4vw;
+  }
+  
+}
