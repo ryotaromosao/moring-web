@@ -28,7 +28,7 @@
 }
 
 
-@media screen and (width <=1200px) {
+@media screen and (width <=800px) {
     .achievement {
         width: 86%;
         left:53%;
