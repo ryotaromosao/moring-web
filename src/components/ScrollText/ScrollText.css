@@ -12,9 +12,9 @@
     padding-bottom: 2vw;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1000px) {
     .scroll-text {
-        font-size: 9vh;
+        font-size: 8.5vh;
         padding-left: 5%;
         padding-right: 5%;
     }

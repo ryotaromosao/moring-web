@@ -56,7 +56,7 @@ function App() {
 
     <center><b className="murasaki">#Rules</b></center>
 
-    <div style={{ marginBottom: "4%" }}></div>
+    <div style={{ marginBottom: "7vh" }}></div>
 
 
 
