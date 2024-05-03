@@ -58,9 +58,14 @@ function App() {
 
     <div style={{ marginBottom: "4vh" }}></div>
 
+    <b className="murasaki"><p>・朝活宣言を行った日の朝9時までに研究室に入室する<br />
+    ・9~12時は各々にとってmeaningfulな活動を行う<br />
+    ・朝活成功時には、朝活ポイントが1P付与される<br />
+    ・遅刻した場合、ペナルティが課せられる<br />
+    ・シーズン王者には、額縁・朝活資金運営権が与えられる
+    </p></b>
 
-
-    <Rules 
+    {/* <Rules 
       text="・朝活宣言を行った日の朝9時までに研究室に入室する"
     /><Rules
       text="・9~12時は各々にとってmeaningfulな活動を行う"
@@ -70,7 +75,9 @@ function App() {
       text="・遅刻した場合、ペナルティが課せられる"
     /><Rules
       text="・シーズン王者には、額縁・朝活資金運営権が与えられる"
-    />
+    /> */}
+
+
 
     <div style={{ marginBottom: "7vh" }}></div>
 
@@ -78,7 +85,7 @@ function App() {
 
     <div style={{ marginBottom: "3%" }}></div>
 
-    <Achievement
+    {/* <Achievement
     text="・IPSJ学生奨励賞受賞（Manato Chiba）"/>
     <Achievement
     text="・IPSJ学生奨励賞受賞（Wataru Kunimi）"/>
@@ -91,14 +98,26 @@ function App() {
     <Achievement
     text="・第一志望内定（金融）（Kodai Tanaka）"/>
     <Achievement
-    text="・第一志望内定（インフラ）（Mayuko Kamaya）"/>
+    text="・第一志望内定（インフラ）（Mayuko Kamaya）"/> */}
 
     
-    <div style={{ marginBottom: "2%" }}></div>
+    {/* <div style={{ marginBottom: "2%" }}></div>
 
     <Achievement
   text={<div>・入退出システム開発<br />（Shuhei Yoshida、Yoshikazu Bro）</div>}
-/>
+/> */}
+
+    <b className="midori"><p>・IPSJ学生奨励賞受賞（Manato Chiba）<br />
+    ・IPSJ学生奨励賞受賞（Wataru Kunimi）<br />
+    ・IPSJ学生奨励賞受賞（Kodai Tanaka）<br />
+    ・KTH Master's Accepted（Manato Chiba）<br />
+    ・Flatt Security内定（Ryotaro Matsui）<br />
+    ・第一志望内定（金融）（Kodai Tanaka）<br />
+    ・第一志望内定（インフラ）（Mayuko Kamaya）<br />
+    ・入退出システム開発（Shuhei Yoshida、Yoshikazu Bro）
+
+
+    </p></b>
 
     <div style={{ marginBottom: "10vh" }}></div>
 

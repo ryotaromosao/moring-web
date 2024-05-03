@@ -27,16 +27,33 @@
   font-size: 2.5vw;
 }
 
+.murasaki p {
+  font-size: 2vw;
+  text-align: left;
+  margin: 0 auto;
+  max-width: 60%;
+  padding-left: 10%;
+}
+
 .midori{
   color:#03b4a5;
   font-size: 2.5vw;
 }
 
-@media screen and (width <=1200px) {
-  .midori {
+.midori p {
+    font-size: 2vw;
+    text-align: left;
+    margin: 0 auto;
+    max-width: 60%;
+    padding-left: 10%;
+
+}
+
+@media screen and (max-width: 1200px) {
+  .midori p{
     font-size: 8vw;
   }
-  .murasaki{
+  .murasaki p{
     font-size: 8vw;
   }
   
