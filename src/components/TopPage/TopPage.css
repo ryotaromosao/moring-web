@@ -35,7 +35,7 @@
     z-index: 1;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (width<= 800px) {
 
     .large-photo,
     .text-overlay {

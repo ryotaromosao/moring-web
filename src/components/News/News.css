@@ -43,29 +43,36 @@
 }
 
 
-@media screen and (max-width: 400px) {
+@media screen and (width<=1200px) {
     .news {
         display: block;
     }
 
     .news__image {
-        width: 95%;
+        width: 100%;
         margin: 0 auto;
-        padding: 5% 0;
+        padding-right: 0;
+   
     }
 
     .news__description {
+        padding-left: 0;
         order: 1;
-        padding-left: 5%;
-        padding-right: 5%;
+        /* padding-left: 5%;
+        padding-right: 5%; */
     }
 
     .news__description h2 {
-        font-size: 5vw;
+        padding-top: 1vw;
+        padding-bottom: 0;
+        font-size: 4.8vw;
+        text-align: center;
     }
 
     .news__description p {
+        padding-right: 0;
         font-size: 3.5vw;
         padding-bottom: 5%;
+        text-align: left;
     }
 }

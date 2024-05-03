@@ -115,8 +115,6 @@ function App() {
     ・第一志望内定（金融）（Kodai Tanaka）<br />
     ・第一志望内定（インフラ）（Mayuko Kamaya）<br />
     ・入退出システム開発（Shuhei Yoshida、Yoshikazu Bro）
-
-
     </p></b>
 
     <div style={{ marginBottom: "10vh" }}></div>

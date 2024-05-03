@@ -54,30 +54,14 @@
 }
 
 @media screen and (max-width: 800px) {
-
     .member li {
-        width: calc(100% - 2vw);
-        /* 画像を横に一枚のみ表示するために幅を調整 */
-        padding: 2vw;
-        /* パディングを追加 */
-        margin: 0;
-        /* マージンをリセット */
+        width: calc(50% - 20px);
     }
 
     .member li p {
         font-size: 3vw;
-        top: 0;
-        padding-bottom: 3vw;
+        top: 0vh;
     }
 }
- @media screen and (max-width: 400px) {
-     .member li {
-         width: calc(50% - 20px);
-     }
-     .member li p{
-        font-size: 3vw;
-        top:0vh;
-     }
- }
-
+ 
  
