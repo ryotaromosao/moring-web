@@ -14,9 +14,9 @@
 
 @media screen and (width<=800px) {
     .scroll-text {
-        font-size: 8.5vh;
-        padding-left: 5%;
-        padding-right: 5%;
+        font-size: 4.2vh;
+        padding-left: 2%;
+        padding-right: 2%;
     }
 
 }
