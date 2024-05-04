@@ -1,6 +1,7 @@
 .member {
     display: flex;
-    justify-content: center; /*中央寄せ */
+    justify-content: center;
+    /*中央寄せ */
     text-align: center;
     padding-left: 0%;
     flex-wrap: wrap;
@@ -11,10 +12,7 @@
     /* 相対位置指定 */
     width: calc(20% - 0px);
     padding: 0.9vw;
-
-    /* box-sizing: border-box; */
     color: #fff;
-    /* 中央寄せ */
     margin-left: 0;
 }
 
@@ -22,6 +20,22 @@
     max-width: 100%;
     height: auto;
     /* border: solid 1px #fff; */
+    position: relative;
+    z-index: 1;
+}
+
+.member li .circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 50%;
+    width: 50px;
+    /* 任意のサイズ */
+    height: 50px;
+    /* 任意のサイズ */
+    z-index: 2;
 }
 
 .member li p {
@@ -29,24 +43,21 @@
     height: 2vh;
     width: 100%;
     top: 0.5vh;
-    /* left: 0;
-    right: 0; */
     color: #6F51A1;
-    /* padding: 1vw; */
     font-size: 1.2vw;
     font-weight: bold;
-    text-align:  center;
+    text-align: center;
     padding: 0%;
     top: -1.5vh
 }
 
-@media screen and (width <= 1200px) {
-    
-    .member li{
+@media screen and (max-width: 1200px) {
+    .member li {
         width: calc(45% - 2px);
         padding: 1vw;
     }
-    .member li p{
+
+    .member li p {
         font-size: 2vw;
         padding: 0%;
         top: -0.5vh
@@ -61,7 +72,6 @@
     .member li p {
         font-size: 3vw;
         top: 0vh;
+        top: -1.3vh;
     }
 }
- 
- 
