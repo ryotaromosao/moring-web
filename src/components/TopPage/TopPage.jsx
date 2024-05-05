@@ -4,7 +4,7 @@ import './TopPage.css';
 function TopPage() {
   const [currentImage, setCurrentImage] = useState(1);
   const [animationClass, setAnimationClass] = useState('fade-in');
-  const imagePaths = ['toppage-1.JPG', 'toppage-2.JPG', 'toppage-3.JPG', 'toppage-4.JPG'];
+  const imagePaths = ['toppage-1.JPG', 'toppage-2.JPG', 'toppage-5.JPG', 'toppage-4.JPG'];
 
   useEffect(() => {
     const interval = setInterval(() => {
