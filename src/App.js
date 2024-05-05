@@ -113,10 +113,10 @@ function App() {
     <b className="midori"><p>・IPSJ学生奨励賞受賞（Manato Chiba）<br />
     ・IPSJ学生奨励賞受賞（Wataru Kunimi）<br />
     ・IPSJ学生奨励賞受賞（Kodai Tanaka）<br />
-    ・KTH Master's Accepted（Manato Chiba）<br />
     ・Flatt Security内定（Ryotaro Matsui）<br />
     ・第一志望内定（金融）（Kodai Tanaka）<br />
     ・第一志望内定（インフラ）（Mayuko Kamaya）<br />
+    ・KTH Master's Accepted（Manato Chiba）<br />
     ・入退出システム開発（Shuhei Yoshida、Yoshikazu Bro）
     </p></b>
 
