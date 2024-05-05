@@ -26,11 +26,11 @@ function App() {
    
       <ScrollText text="有意義な朝活を通して、いつまでも成長し続ける" />
       
-      <div style={{ marginBottom: "3%" }}></div>
+      <div style={{ marginBottom: "7vh" }}></div> 
 
       <center><b className="murasaki">#Board Members</b></center>
      
-      <div style={{ marginBottom: "3%" }}></div>
+      <div style={{ marginBottom: "3vh" }}></div>
 
 
     <Introduce
@@ -52,14 +52,14 @@ function App() {
       imageUrl={'./firstmember.JPG'}
       />
     
-    <div style={{ marginBottom: "3%" }}></div>
-
+    <div style={{ marginBottom: "7vh" }}></div> 
+    
     <center><b className="murasaki">#Rules</b></center>
 
-    <div style={{ marginBottom: "4vh" }}></div>
+    <div style={{ marginBottom: "3vh" }}></div>
 
-    <b className="murasaki"><p>・朝活宣言を行った日の朝9時までに研究室に入室する<br />
-    ・9~12時は各々にとってmeaningfulな活動を行う<br />
+    <b className="murasaki"><p>・朝活宣言日の朝9時までに居室に入室する<br />
+    ・9~12時は各々meaningfulな活動を行う<br />
     ・朝活成功時には、朝活ポイントが1P付与される<br />
     ・遅刻した場合、ペナルティが課せられる<br />
     ・シーズン王者には、額縁・朝活資金運営権が与えられる
@@ -83,7 +83,7 @@ function App() {
 
     <center><b className="midori">#Achievements</b></center>
 
-    <div style={{ marginBottom: "3%" }}></div>
+    <div style={{ marginBottom: "3vh" }}></div>
 
     {/* <Achievement
     text="・IPSJ学生奨励賞受賞（Manato Chiba）"/>
@@ -117,7 +117,7 @@ function App() {
     ・入退出システム開発（Shuhei Yoshida、Yoshikazu Bro）
     </p></b>
 
-    <div style={{ marginBottom: "10vh" }}></div>
+    <div style={{ marginBottom: "7vh" }}></div> 
 
     <center><b className="murasaki">#Members</b></center>
    
@@ -150,7 +150,7 @@ function App() {
        
       <Member 
       picture1="./MMC_logo.jpg"
-      picture2={"./tkd-2.JPG"}
+      picture2={"./tkd-3.JPG"}
       picture3={"./MMC_logo.jpg"}
 
       name1={"Shingo Kato"}
@@ -159,12 +159,12 @@ function App() {
       />
 
 
-    <div style={{ marginBottom: "6%" }}></div>
+    <div style={{ marginBottom: "7vh" }}></div> 
 
 
     <center><b className="murasaki">#News</b></center>
 
-    <div style={{ marginBottom: "3%" }}></div>
+    <div style={{ marginBottom: "3vh" }}></div>
 
     <News
       name={"【部活外活動】\n5/2 第1回 All in Poker Chapionship2024 が開催されました"}        
