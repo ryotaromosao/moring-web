@@ -24,7 +24,7 @@
 
 .murasaki {
   color: #6F51A1;
-  font-size: 2.5vw;
+  font-size: 3vw;
   
   
 }
@@ -39,7 +39,7 @@
 
 .midori{
   color:#03b4a5;
-  font-size: 2.5vw;
+  font-size: 3vw;
 }
 
 .midori p {
@@ -58,7 +58,7 @@
   .midori p{
     font-size: 4.59vw;
     max-width: 100%;
-    padding-left: 3.5vw;
+    padding-left: 7vw;
   }
   .murasaki{
     font-size: 8vw;
