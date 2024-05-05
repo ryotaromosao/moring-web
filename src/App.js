@@ -116,8 +116,8 @@ function App() {
     ・Flatt Security内定（Ryotaro Matsui）<br />
     ・第一志望内定（金融）（Kodai Tanaka）<br />
     ・第一志望内定（インフラ）（Mayuko Kamaya）<br />
-    ・KTH Master's Accepted（Manato Chiba）<br />
-    ・入退出システム開発（Shuhei Yoshida、Yoshikazu Bro）
+    ・KTH（スウェーデン王立工科大学）Master's Accepted（Manato Chiba）<br />
+    ・東北大学菅沼研究室 入退出システム開発<br />（Shuhei Yoshida・Yoshikazu Brother）
     </p></b>
 
     <div style={{ marginBottom: "7vh" }}></div> 
