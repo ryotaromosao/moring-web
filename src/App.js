@@ -19,7 +19,8 @@ function App() {
      
       <div style={{ marginBottom: "10vh" }}></div>
 
-      <center><b className="murasaki">#Mission</b></center>
+    <i><center><b className="murasaki">#Mission</b></center></i>
+
 
       <div style={{ marginBottom: "3%" }}></div>
 
@@ -27,8 +28,9 @@ function App() {
       <ScrollText text="有意義な朝活を通して、いつまでも成長し続ける" />
       
       <div style={{ marginBottom: "7vh" }}></div> 
+   
+    <i><center><b className="murasaki">#Board Members</b></center></i>
 
-      <center><b className="murasaki">#Board Members</b></center>
      
       <div style={{ marginBottom: "3vh" }}></div>
 
@@ -54,7 +56,7 @@ function App() {
     
     <div style={{ marginBottom: "7vh" }}></div> 
     
-    <center><b className="murasaki">#Rules</b></center>
+    <i><center><b className="murasaki">#Rules</b></center></i>
 
     <div style={{ marginBottom: "3vh" }}></div>
 
@@ -81,7 +83,8 @@ function App() {
 
     <div style={{ marginBottom: "7vh" }}></div>
 
-    <center><b className="midori">#Achievements</b></center>
+    <i><center><b className="midori">#Achievements</b></center></i>
+
 
     <div style={{ marginBottom: "3vh" }}></div>
 
@@ -119,7 +122,7 @@ function App() {
 
     <div style={{ marginBottom: "7vh" }}></div> 
 
-    <center><b className="murasaki">#Members</b></center>
+    <i><center><b className="murasaki">#Members</b></center></i>
    
     <div style={{ marginBottom: "3%" }}></div>
 
@@ -162,7 +165,7 @@ function App() {
     <div style={{ marginBottom: "7vh" }}></div> 
 
 
-    <center><b className="murasaki">#News</b></center>
+   <i><center><b className="murasaki">#News</b></center></i> 
 
     <div style={{ marginBottom: "3vh" }}></div>
 
