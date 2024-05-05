@@ -31,7 +31,7 @@
 .news__description h2 {
     text-align: center;
     margin-top: 0;
-    font-size: 1.8vw;
+    font-size: 1.79vw;
 }
 
 
@@ -44,7 +44,7 @@
 }
 
 
-@media screen and (width<=1200px) {
+@media screen and (width<=800px) {
     .news {
         display: block;
         padding: 15px;
