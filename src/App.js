@@ -154,7 +154,7 @@ function App() {
       <Member 
       picture1="./MMC_logo.jpg"
       picture2={"./tkd-3.JPG"}
-      picture3={"./MMC_logo.jpg"}
+      picture3={"./koyama_member.jpg"}
 
       name1={"Shingo Kato"}
       name2={"TKD / dealer"}
@@ -169,6 +169,11 @@ function App() {
 
     <div style={{ marginBottom: "3vh" }}></div>
 
+    <News
+        name={"5/10 B4小山君 初ミーニングフルモーリング達成！"}        
+        description={"本日、弊社の新メンバーであるB4の小山君が初めての朝活を達成しました。小山君は入部前から自ら朝活を展開しており、その積極性を千葉部長が高く評価し、朝活部への勧誘を行いました。現在、小山君は週1回の活動ですが、彼の今後の活躍に期待が高まっています。"}
+        imageUrl={'./koyama.jpg'}
+      />
 
     <News
       name={"5/5 宣材写真の撮影を行いました"}        
